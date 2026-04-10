@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+
+# Dataset (regeneratable, not committed)
+dataset/
+
+# Training output (large, regeneratable)
+runs/
+
+# Model weights — most are too large for git.
+# We commit only the small demo model and the YOLOv8n base.
+models/*.pt
+!models/vats_drone.pt
+!models/yolov8n.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
