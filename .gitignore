@@ -7,6 +7,9 @@ dataset/
 # Training output (large, regeneratable)
 runs/
 
+# Demo screenshots (taken with [S] hotkey during live runs)
+screenshots/
+
 # Model weights — most are too large for git.
 # We commit only the small demo model and the YOLOv8n base.
 models/*.pt

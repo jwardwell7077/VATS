@@ -121,3 +121,6 @@ python3 src/vats.py 0
 ## Keybinds
 
 - `q` / `ESC` — quit
+- `SPACE` — pause / resume the feed (HUD stays live)
+- `h` — toggle HUD overlay (clean view of the raw frame)
+- `s` — save annotated screenshot to `screenshots/`
